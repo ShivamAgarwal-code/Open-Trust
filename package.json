@@ -1,0 +1,42 @@
+{
+  "name": "open-trust-claims",
+  "version": "1.0.0",
+  "description": "Graph Visualisation of Connected Claims",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youngnishant/open-trust-claims.git"
+  },
+  "keywords": [
+    "open-trust-claims"
+  ],
+  "author": "Nishant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youngnishant/open-trust-claims/issues"
+  },
+  "homepage": "https://github.com/youngnishant/open-trust-claims#readme",
+  "dependencies": {
+    "@apollo/client": "^3.6.9",
+    "@composedb/client": "^0.1.1",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/material": "^5.9.2",
+    "cytoscape": "^3.22.1",
+    "dids": "^3.2.0",
+    "jotai": "^1.7.6",
+    "key-did-provider-ed25519": "^2.0.1",
+    "key-did-resolver": "^2.0.5",
+    "moment": "^2.29.4",
+    "next": "^12.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "uint8arrays": "^3.0.0"
+  }
+}
